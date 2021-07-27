@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.Guideline
@@ -93,10 +94,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
+        android:text="@string/num_posts"
+        android:textColor="@color/blue"
         android:textSize="25dp"
         android:textStyle="bold"
-        android:textColor="@color/blue"
-        android:text="@string/num_posts"
         app:layout_constraintEnd_toStartOf="@+id/textView5"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -107,9 +108,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/num_followers"
+        android:textColor="@color/blue"
         android:textSize="25dp"
         android:textStyle="bold"
-        android:textColor="@color/blue"
         app:layout_constraintBottom_toBottomOf="@+id/textView4"
         app:layout_constraintEnd_toStartOf="@+id/textView6"
         app:layout_constraintHorizontal_bias="0.5"
@@ -121,9 +122,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/num_following"
+        android:textColor="@color/blue"
         android:textSize="25dp"
         android:textStyle="bold"
-        android:textColor="@color/blue"
         app:layout_constraintBottom_toBottomOf="@+id/textView5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -136,8 +137,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="@string/following"
-        android:textSize="18dp"
         android:textColor="@color/grey"
+        android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="@+id/textView4"
         app:layout_constraintStart_toStartOf="@+id/textView4"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
@@ -148,8 +149,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="@string/followers"
-        android:textSize="18dp"
         android:textColor="@color/grey"
+        android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="@+id/textView5"
         app:layout_constraintStart_toStartOf="@+id/textView5"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
@@ -160,8 +161,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="@string/posts"
-        android:textSize="18dp"
         android:textColor="@color/grey"
+        android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="@+id/textView6"
         app:layout_constraintStart_toStartOf="@+id/textView6"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
@@ -189,8 +190,8 @@
         android:textColor="@color/grey"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView10"
         app:layout_constraintStart_toStartOf="@+id/textView10"
-        app:layout_constraintTop_toBottomOf="@+id/textView10"
-        app:layout_constraintEnd_toEndOf="@+id/textView10"/>
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
